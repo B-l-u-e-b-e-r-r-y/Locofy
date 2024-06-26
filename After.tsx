@@ -28,29 +28,17 @@ const After: FunctionComponent = () => {
         </div>
       </nav>
       <div className="self-stretch bg-white flex flex-row items-center justify-start">
-        <div className="flex flex-col items-center justify-start gap-[5px] text-eb4">
-          <div className="self-stretch overflow-hidden flex flex-row items-center justify-center py-[7px] px-0">
-            <div className="flex-1 relative">組織設定</div>
-          </div>
-          <div className="w-[152px] relative box-border h-0.5 border-t-[2px] border-solid border-eb4" />
+        <div className="self-stretch w-[150px] box-border flex flex-col items-center justify-center py-2 px-0 text-eb4 border-b-[1.5px] border-solid border-eb4">
+          <div className="relative">組織設定</div>
         </div>
-        <div className="self-stretch flex flex-col items-center justify-between">
-          <div className="self-stretch flex flex-row items-center justify-center py-[7px] px-0">
-            <div className="flex-1 relative">角色設定</div>
-          </div>
-          <div className="w-[150px] relative h-0" />
+        <div className="self-stretch w-[150px] flex flex-col items-center justify-center py-2 px-0 box-border">
+          <div className="relative">角色設定</div>
         </div>
-        <div className="self-stretch flex flex-col items-center justify-between">
-          <div className="self-stretch overflow-hidden flex flex-row items-center justify-center py-[7px] px-0">
-            <div className="flex-1 relative">人員設定</div>
-          </div>
-          <div className="w-[150px] relative h-0" />
+        <div className="self-stretch w-[150px] flex flex-col items-center justify-center py-2 px-0 box-border">
+          <div className="relative">人員設定</div>
         </div>
-        <div className="self-stretch flex flex-col items-center justify-between">
-          <div className="self-stretch overflow-hidden flex flex-row items-center justify-center py-[7px] px-0">
-            <div className="flex-1 relative">車輛設定</div>
-          </div>
-          <div className="w-[150px] relative h-0" />
+        <div className="self-stretch w-[150px] flex flex-col items-center justify-center py-2 px-0 box-border">
+          <div className="relative">車輛設定</div>
         </div>
       </div>
       <div className="self-stretch flex-1 flex flex-row items-start justify-start gap-[7px] min-h-[831px] text-left text-base text-black">
